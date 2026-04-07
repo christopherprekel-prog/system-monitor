@@ -1,6 +1,3 @@
-from monitor import monitoring
-import time
+from logger import logging
 
-while True:
-    cpu, ram = monitoring()
-    print(f"CPU Auslastung: {cpu}% | RAM Auslastung: {ram}%")
+logging()
