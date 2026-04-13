@@ -1,3 +1,5 @@
-from logger import logging
+from logger import log_data
+from plot import plot_cpu_ram
 
-logging()
+log_data()
+plot_cpu_ram()
